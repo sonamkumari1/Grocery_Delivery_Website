@@ -3,7 +3,7 @@ import { assets, categories } from '../assets/assets'
 import { useNavigate } from 'react-router-dom';
 
 function Categories() {
-    const { navigate } = useNavigate()
+    const navigate = useNavigate()
   return (
     <div className='mt-16'>
       <p className='text-2xl md:text-3xl font-medium'>Categories</p>
